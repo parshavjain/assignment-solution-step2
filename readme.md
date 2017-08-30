@@ -106,13 +106,12 @@ The final QueryParameter class consisit of
     - baseQuery -> String
     - fields -> List<String>
     - QUERY_TYPE -> String
-    - restrictions : Restriction[]   ( Array/group of restrictions.  A query may have multiple restrictions/filter conditions)
+    - restrictions : List<Restriction>   ( Array/group of restrictions.  A query may have multiple restrictions/filter conditions)
     - logicalOperators : List<String>
     - aggregateFunctions -> List<AggregateFunction>
     - orderByFields : List<String>
     - groupByFields  :  List<String>
-    - aggregateFunctions : AggregateFunction[]    ( Array/group of aggregates.  A query may have multiple aggregates like min,max, count etc.,)
-
+    
 Where we parse the query string build **QueryParameter** object? The parsing logic should not be in **QueryParameter** class. This class should consist of just properties and getter/setter methods only.
 
 The parsing should be done in separate class.  The class name can be like **QueryParser**.  In this class write a method which takes query string as input and return **QueryParameter** object.
