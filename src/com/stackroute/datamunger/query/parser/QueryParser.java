@@ -14,8 +14,9 @@ public class QueryParser {
 		 * extract the name of the file from the query. File name can be found after the
 		 * "from" clause.
 		 */
+		return queryParameter;
 		
-		
+	}
 		/*
 		 * extract the order by fields from the query string. Please note that we will
 		 * need to extract the field(s) after "order by" clause in the query, if at all
@@ -91,8 +92,8 @@ public class QueryParser {
 		 * 
 		 * 
 		 */
-		return queryParameter;
-	}
+		
+	
 	
 	
 }
