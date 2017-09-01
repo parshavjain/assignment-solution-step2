@@ -95,11 +95,10 @@ Create a separate class called **AggregateFunction** and add the following field
 Class : **AggregateFunction**
 Properties : 
     field : String
-    result : int
     function : String
-    aggregateFieldIndex : int
     
-The final QueryParameter class consisit of
+    
+The final QueryParameter class consist of
 -----------------------------------------
     - queryString : String
     - file  : String
