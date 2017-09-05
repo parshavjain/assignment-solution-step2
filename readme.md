@@ -45,7 +45,7 @@ For all these properties we need to identify proper data type.  Let us decide no
 
 where condition/ filter part
 ---------------------------
- In previous assignment-I  we have done the following assignment(just printed on the console)
+ In previous assignment-I  we have done the following (just printed on the console)
  
     Input String  : **select * from ipl.csv where season > 2014 and city ='Bangalore';**
     Output String : 
@@ -60,9 +60,9 @@ where condition/ filter part
  
  These values should be captured in the proper data type.  We need to store variable, operator and value. To store/capture these 3 values we need a separate class.
  
- The class name we can take as Condition OR Restriction OR FilterCondition OR Criteria etc.,  
+ The class name can be Condition OR Restriction OR FilterCondition OR Criteria etc.,  
  
- Let us take as Restriction class
+ Let us consider it as Restriction class
  
  In this class we need 3 parameters of String type.
  - propertyName : String
@@ -71,7 +71,7 @@ where condition/ filter part
  
 Aggregate Fields
 ------------------
-In previous assignment-I  we have done the following assignment(just printed on the console)
+In previous assignment-I  we have done the following (just printed on the console)
 
 User may require the information like who is getting maximum salary or minimum age etc., these are called aggregate functions (minimum, maximum, count, average, sum)
 
