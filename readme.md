@@ -137,16 +137,17 @@ The folders and files you see in this repositories, is how it is expected to be 
 
 	Project
 	|
-	├── resources 			                // If project needs any data file, it can be found here/placed here, if data is huge they can be mounted, no need put it in your repository
+	├── data 			                // If project needs any data file, it can be found here/placed here, if data is huge they can be mounted, no need put it in your repository
 	|
 	├── com.stackroute.datamunger	            // all your java file will be stored in this package
-	|	└── query
+	|	└── DataMunger.java	                   // This is the main file, all your logic is written in this file only
+	├── com.stackroute.datamunger.query.parser
 	|		└── AggregateFunction.java          // This class is used to store Aggregate Function
 	|		└── QueryParameter.java             // This class contains the parameters and accessor/mutator methods of QueryParameter
 	|		└── QueryParser.java                // This class will parse the queryString and return an object of QueryParameter class
 	|		└── Restriction.java                // This class is for storing Restriction object
-	|	└── test		                        // all your test cases are written using JUnit, these test cases can be run by selecting Run As -> JUnit Test 
-	|	└── DataMunger.java	                // This is the main file, all your logic is written in this file only
+	├── com.stackroute.datamunger.test         // all your test cases will be stored in this package
+    |       └── DataMungerTest.java           // all your test cases are written using JUnit, these test cases can be run by selecting Run As -> JUnit Test 
 	|
 	├── .classpath			                // This file is generated automatically while creating the project in eclipse
 	|
@@ -204,7 +205,7 @@ The folders and files you see in this repositories, is how it is expected to be 
 > - We expect you to write the assignment on your own by following through the guidelines, learning plan, and the practice exercises
 > - The code must not be plagirized, the mentors will randomly pick the submissions and may ask you to explain the solution
 > - The code must be properly indented, code structure maintained as per the boilerplate and properly commented
-> - Follow through the problem statement and stories shared with you
+> - Follow through the problem statement shared with you
 
 ### Further Instructions on Release
 
