@@ -4,15 +4,12 @@
 
 In our first assignment we extracted the different parts of the query and **just displayed**. 
 
-In this assignment we should store the query parameters/parts. We should think where to store these parametetrs.  
+In this assignment we should store the query parameters/parts. We should think where to store these parameters.  
 
 To do this we have to create a separate class with properties and methods.
 
 The class name should be meaningful like **QueryParameter**. In this **QueryParameter** class we need to add properties so that we store the various parts of 
 the query string which we splitted in our earlier assignment.
-
-**Note : Once you have cloned boilerplate from the given gitlab URL, import the project into eclipse. 
-Your project’s test cases might show compile time errors for methods, as you have not written the complete code.**
 
 ## How to identify the properties of this QueryParameter?
 It is based on what parts of the query string we displayed/printed in the previous assignment.
@@ -78,7 +75,7 @@ In previous assignment-I  we have done the following assignment(just printed on 
 
 User may require the information like who is getting maximum salary or minimum age etc., these are called aggregate functions (minimum, maximum, count, average, sum)
 
-    Input String : s**elect avg(win_by_wickets),min(win_by_runs) from ipl.csv;** 
+    Input String : **select avg(win_by_wickets),min(win_by_runs) from ipl.csv;** 
     Output String : 
             Aggregate 1
                 Aggregate Name  : avg
@@ -89,7 +86,7 @@ User may require the information like who is getting maximum salary or minimum a
                 Aggregate Field : win_by_runs
 
 These values should be captured in the proper data type.  We need to store **aggregate name, aggregate value**.  Apart from these two values, we need to store the result of the aggregate.
-Totally we need 3 properties.
+Totally we need 2 properties.
  
 Create a separate class called **AggregateFunction** and add the following fields along with setter/getter methods
 Class : **AggregateFunction**
