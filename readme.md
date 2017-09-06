@@ -13,6 +13,7 @@ the query string which we splitted in our earlier assignment.
 
 ## How to identify the properties of this QueryParameter?
 It is based on what parts of the query string we displayed/printed in the previous assignment.
+
 i.e.,
     - queryString
     - file
@@ -56,7 +57,7 @@ where condition/ filter part
                     Condition 2 : 
                         variable : city
                         operator : =
-                        value    : 'Bangalore'
+                        value    : 'bangalore'
  
  These values should be captured in the proper data type.  We need to store variable, operator and value. To store/capture these 3 values we need a separate class.
  
