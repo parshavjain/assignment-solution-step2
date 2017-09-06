@@ -48,7 +48,7 @@ where condition/ filter part
 ---------------------------
  In previous assignment-I  we have done the following (just printed on the console)
  
-    Input String  : **select * from ipl.csv where season > 2014 and city ='Bangalore';**
+    Input String  : select * from ipl.csv where season > 2014 and city ='Bangalore';
     Output String : 
                     Condition 1 : 
                         variable : season
@@ -76,7 +76,7 @@ In previous assignment-I  we have done the following (just printed on the consol
 
 User may require the information like who is getting maximum salary or minimum age etc., these are called aggregate functions (minimum, maximum, count, average, sum)
 
-    Input String : **select avg(win_by_wickets),min(win_by_runs) from ipl.csv;** 
+    Input String : select avg(win_by_wickets),min(win_by_runs) from ipl.csv;
     Output String : 
             Aggregate 1
                 Aggregate Name  : avg
