@@ -14,7 +14,7 @@ the query string which we splitted in our earlier assignment.
 ## How to identify the properties of this QueryParameter?
 It is based on what parts of the query string we displayed/printed in the previous assignment.
 
-i.e.,
+    i.e.,
     - queryString
     - file
     - baseQuery
