@@ -89,7 +89,9 @@ These values should be captured in the proper data type.  We need to store **agg
 Totally we need 2 properties.
  
 Create a separate class called **AggregateFunction** and add the following fields along with setter/getter methods
+
 Class : **AggregateFunction**
+
 Properties : 
     field : String
     function : String
