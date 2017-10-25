@@ -99,7 +99,8 @@ public class QueryParameter {
 	}
 
 	/**
-	 * @param restrictions the restrictions to set
+	 * @param restrictions
+	 *            the restrictions to set
 	 */
 	public void setRestrictions(List<Restriction> restrictions) {
 		this.restrictions = restrictions;
@@ -113,7 +114,8 @@ public class QueryParameter {
 	}
 
 	/**
-	 * @param logicalOperators the logicalOperators to set
+	 * @param logicalOperators
+	 *            the logicalOperators to set
 	 */
 	public void setLogicalOperators(List<String> logicalOperators) {
 		this.logicalOperators = logicalOperators;
@@ -148,20 +150,4 @@ public class QueryParameter {
 		}
 		return this.groupByFields;
 	}
-
-	/*
-	 * public String getFile() { return null; }
-	 * 
-	 * public List<Restriction> getRestrictions() { return null; }
-	 * 
-	 * public List<String> getLogicalOperators() { return null; }
-	 * 
-	 * public List<String> getFields() { return null; }
-	 * 
-	 * public List<AggregateFunction> getAggregateFunctions() { return null; }
-	 * 
-	 * public List<String> getGroupByFields() { return null; }
-	 * 
-	 * public List<String> getOrderByFields() { return null; }
-	 */
 }
