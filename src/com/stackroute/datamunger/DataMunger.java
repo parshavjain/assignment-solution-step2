@@ -10,8 +10,9 @@ public class DataMunger {
 	public static void main(String[] args) throws Exception {
 		
 		//read the query from the user
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String queryString = br.readLine();
+		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		//String queryString = br.readLine();
+		String queryString = "select city,winner,team1,team2,player_of_match from data ipl.csv  where season>=2008 or toss_decision!=bat";
 		
 		//create an object of QueryParser class
 		QueryParser queryParser = new QueryParser();

@@ -7,6 +7,15 @@ package com.stackroute.datamunger.query.parser;
  * */
 public class Restriction {
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Restriction [propertyName=" + propertyName + ", propertyValue=" + propertyValue + ", condition="
+				+ condition + "]";
+	}
+
 	private String propertyName;
 	private String propertyValue;
 	private String condition;
